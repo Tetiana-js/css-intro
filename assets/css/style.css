@@ -1,42 +1,49 @@
-/* зовнішні стилі */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-
-/* селектор тегу 0001*/
+header{
+    background-color: bisque;
+    background-image: url(./../ракушка.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: local;
+    height: 100vh;
+    
+}
 h1 {
-    color: olivedrab;
-     font-family: initial;  /*вимкнути успадкування */
-    border: inherit; /* увімкнути успадкування */
-}
-
-p {
-    font-family: serif;
-}
-
-a{
-color: inherit;
-text-decoration: none;
-}
-
-
-/* каскадність - якщо одна і та сама властивість задана для одного і того самого селектора, то пріоритетна, та що остання */
-
-/* специфічність важливіша за каскадність */
-
-/* спадкування - властивість переймати властивостей у батьківського тега */
-
-/* селектор ідентифікатора 0100*/
-#subscribe-button {
-    color: rgb(235, 102, 54);
-}
-
-
-/* селектор класу 0010 НАЙКРАЩИЙ ВАРІАНТ*/
-.annotation {
-    font-size: 10px;
-}
-
-body {
-    font-family: sans-serif; 
-    border: 4px salmon solid;
+    color: #926239;
+    font-family: sans-serif;
+    font-size: 40px;
     text-align: center;
+    /* border: solid lawngreen; */
+    padding: 400px 300px 0;
+    
+    
+    
+    
 }
+
+.header1 {
+    color: #926239;
+    font-family: sans-serif;
+    text-align: center;
+    /* border: solid greenyellow; */
+    padding: 8px;
+
+}
+
+button{
+    border: solid #926239;
+    text-align: center;
+    
+}
+
+
+
+
+
+
