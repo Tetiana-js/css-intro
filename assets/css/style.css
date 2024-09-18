@@ -1,49 +1,111 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    background-color: bisque;
-    background-image: url(./../ракушка.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:  center;
-    background-attachment: local;
-    height: 100vh;
-    
+header {
+  background-color: bisque;
+  background-image: url(./../ракушка.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  text-align: center;
+  height: 100vh;
 }
+/* використала саме vh, тому що не знала як по іншому зробити так щоб зображення було на весь екран */
+
 h1 {
-    color: #926239;
-    font-family: sans-serif;
-    font-size: 40px;
-    text-align: center;
-    /* border: solid lawngreen; */
-    padding: 400px 300px 0;
-    
-    
-    
-    
+  color: #926239;
+  font-family: sans-serif;
+  font-size: 40px;
+  padding: 400px 300px 0;
 }
 
 .header1 {
-    color: #926239;
-    font-family: sans-serif;
-    text-align: center;
-    /* border: solid greenyellow; */
-    padding: 8px;
-
+  color: #926239;
+  font-family: sans-serif;
+  padding: 8px;
 }
 
-button{
-    border: solid #926239;
-    text-align: center;
+button {
+  border: 1px solid #926239;
+  background-color: transparent;
+  color: #926239;
+  height: 40px;
+  width: 110px;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* де краще вставляти cursor: pointer;? Тут чи в button:hover? */
+/* text-align: center; чому не спрацювало в цьому селекторі, поки я не додала цю властивість батьківському?*/
+
+button:hover {
+  background-color: #926239;
+  color: white;
+}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    
     
 }
 
+.main-info1 {
+    background-color: #926239;
+    color: white; 
+    text-align: center;
+    height: 180px;
+    padding: 25px;
+}
 
+.main-info2 {
+    background-color: white;
+    color: #926239;
+    text-align: center;
+    height: 180px;
+    padding: 25px;
+}
 
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: top;
+    font-size: 0;
+    line-height: 30px;
+}
+/* text-align: center; чи треба тут його додавати?*/
 
+.foot1{
+    display: inline-block;
+    background-color: #926239;
+    color: white;
+    font-size: 18px;
+    width: calc( 100% / 3);
+    height: 110px;
+    padding: 25px;
+}
 
+.foot2{
+    display: inline-block;
+    background-color: white;
+    color: #926239;
+    font-size: 18px;
+    width: calc( 100% / 3);
+    height: 110px;
+    padding: 25px;
+}
 
+.foot3{
+    display: inline-block;
+    background-color: #926239;
+    color: white;
+    font-size: 18px;
+    width: calc( 100% / 3);
+    height: 110px;
+    padding: 25px;
+}
